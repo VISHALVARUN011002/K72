@@ -2,18 +2,18 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, HashRouter } from 'react-router-dom'
 import Stairs from './components/common/Stairs.jsx'
 import NavContext from './context/NavContext.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <BrowserRouter>
+  <React.StrictMode>
+    <HashRouter>
       <Stairs>
         <NavContext>
           <App />
         </NavContext>
       </Stairs>
-    </BrowserRouter>
-  </StrictMode>,
+    </HashRouter>
+  </React.StrictMode>,
 )
