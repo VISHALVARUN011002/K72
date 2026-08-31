@@ -1,4 +1,4 @@
-React + Vite Frontend Project (Replace with Your Project Title)
+React + Vite Frontend Project 
 
 This is a modern frontend project built with React, Vite, Tailwind CSS, GSAP for animations, and React Router DOM for navigation.
 
